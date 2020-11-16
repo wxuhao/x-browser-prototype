@@ -1,0 +1,18 @@
+{
+  "name": "x-browser-prototype",
+  "main": "./lib/x-browser-prototype",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "x-browser-prototype:toggle"
+  },
+  "repository": "https://github.com/atom/x-browser-prototype",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

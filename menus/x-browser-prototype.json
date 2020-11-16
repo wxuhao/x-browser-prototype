@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle x-browser-prototype",
+        "command": "x-browser-prototype:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "x-browser-prototype",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "x-browser-prototype:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
