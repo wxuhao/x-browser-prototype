@@ -15,7 +15,7 @@
           "label": "x-browser-prototype",
           "submenu": [
             {
-              "label": "Toggle",
+              "label": "Select browsers to launch",
               "command": "x-browser-prototype:toggle"
             }
           ]

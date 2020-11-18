@@ -1,13 +1,13 @@
 'use babel';
 
-import XBrowserPrototype from '../lib/x-browser-prototype';
+import MyPackage from '../lib/x-browser-prototype';
 
 // Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 //
 // To run a specific `it` or `describe` block add an `f` to the front (e.g. `fit`
 // or `fdescribe`). Remove the `f` to unfocus the block.
 
-describe('XBrowserPrototype', () => {
+describe('MyPackage', () => {
   let workspaceElement, activationPromise;
 
   beforeEach(() => {
@@ -32,13 +32,13 @@ describe('XBrowserPrototype', () => {
       runs(() => {
         expect(workspaceElement.querySelector('.x-browser-prototype')).toExist();
 
-        let xBrowserPrototypeElement = workspaceElement.querySelector('.x-browser-prototype');
-        expect(xBrowserPrototypeElement).toExist();
+        let myPackageElement = workspaceElement.querySelector('.x-browser-prototype');
+        expect(myPackageElement).toExist();
 
-        let xBrowserPrototypePanel = atom.workspace.panelForItem(xBrowserPrototypeElement);
-        expect(xBrowserPrototypePanel.isVisible()).toBe(true);
+        let myPackagePanel = atom.workspace.panelForItem(myPackageElement);
+        expect(myPackagePanel.isVisible()).toBe(true);
         atom.commands.dispatch(workspaceElement, 'x-browser-prototype:toggle');
-        expect(xBrowserPrototypePanel.isVisible()).toBe(false);
+        expect(myPackagePanel.isVisible()).toBe(false);
       });
     });
 
@@ -63,10 +63,10 @@ describe('XBrowserPrototype', () => {
 
       runs(() => {
         // Now we can test for view visibility
-        let xBrowserPrototypeElement = workspaceElement.querySelector('.x-browser-prototype');
-        expect(xBrowserPrototypeElement).toBeVisible();
+        let myPackageElement = workspaceElement.querySelector('.x-browser-prototype');
+        expect(myPackageElement).toBeVisible();
         atom.commands.dispatch(workspaceElement, 'x-browser-prototype:toggle');
-        expect(xBrowserPrototypeElement).not.toBeVisible();
+        expect(myPackageElement).not.toBeVisible();
       });
     });
   });
