@@ -7,4 +7,4 @@ To run:
 2.
     `git clone https://github.com/wxuhao/x-browser-prototype`  
     `cd x-browser-prototype`  
-    `apm install`
+    `apm link`
