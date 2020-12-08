@@ -15,7 +15,7 @@
           "label": "x-browser-prototype",
           "submenu": [
             {
-              "label": "Select browsers to launch",
+              "label": "Select browsers to launch [Ctrl+Alt+T]",
               "command": "x-browser-prototype:toggle"
             }
           ]

@@ -2,7 +2,7 @@
   "name": "x-browser-prototype",
   "main": "./lib/x-browser-prototype",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Live editing for multiple browsers",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "x-browser-prototype:toggle"
@@ -13,6 +13,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "open": "^7.3.0"
+    "open": "^7.3.0",
+    "live-server": "^1.2.1"
   }
 }
