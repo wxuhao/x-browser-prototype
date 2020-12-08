@@ -1,6 +1,6 @@
 # x-browser-prototype package
 
-X-Browser prototype v1
+X-Browser prototype v2
 
 To run:
 1. Install Atom
